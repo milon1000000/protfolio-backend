@@ -19,9 +19,17 @@ import contactRouter from "./routes/contactRoutes.js";
 
 const app = express();
 
+// app.use(
+//   cors({
+//     origin: "https://protfolio-frontend-wxt2.onrender.com", 
+//     credentials: true,
+//   })
+// );
+
+
 app.use(
   cors({
-    origin: "https://protfolio-frontend-wxt2.onrender.com", 
+    origin: "https://protfolio-frontend-wxt2.onrender.com",
     credentials: true,
   })
 );
